@@ -1,0 +1,25 @@
+{
+  "name": "vulkan_bun_helloworld",
+  "author": "David M.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Vulkan example in Bun with GLFW.",
+  "keywords": [
+    "bun",
+    "vulkan",
+    "glfw",
+    "helloworld"
+  ],
+  "main": "./helloworld.ts",
+  "engines": {
+    "bun": ">=0.3.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "vulkan4bun": "0.1.0",
+    "glfw4bun": "0.1.0"
+  },
+  "devDependencies": {
+    "bun-types": "^0.3.0"
+  }
+}

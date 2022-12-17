@@ -3,8 +3,8 @@
 *vulkan_bun_helloworld* is a [Vulkan](https://www.vulkan.org/) helloworld program that runs in [Bun](https://bun.sh/).
 
 *vulkan_bun_helloworld* uses:
-- *vulkan4bun*
-- *glfw4bun*
+- [*vulkan4bun*](https://github.com/davidmanzanares/vulkan4bun)
+- [*glfw4bun*](https://github.com/davidmanzanares/glfw4bun)
 
 Which are bindings generated with *makebindingsforbun*.
 
@@ -17,7 +17,10 @@ bun install
 bun helloworld.ts
 `
 
-If everything works you will see a colored static triangle, FPS and logs will be shown in the terminal
+If everything works you will see a colored static triangle, FPS and logs will be shown in the terminal:
+
+![working example](https://github.com/davidmanzanares/vulkan_bun_helloworld/blob/master/result.png?raw=true)
+
 
 ## Dependencies
 

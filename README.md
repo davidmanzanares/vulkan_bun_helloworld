@@ -6,7 +6,7 @@
 - [*vulkan4bun*](https://github.com/davidmanzanares/vulkan4bun)
 - [*glfw4bun*](https://github.com/davidmanzanares/glfw4bun)
 
-Which are bindings generated with *makebindingsforbun*.
+Which are bindings generated with [makebindingsforbun](https://github.com/davidmanzanares/makebindingsforbun).
 
 The code is a simplification of the [Vulkan tutorial](https://vulkan-tutorial.com/).
 

@@ -12,10 +12,10 @@ The code is a simplification of the [Vulkan tutorial](https://vulkan-tutorial.co
 
 ## Running
 
-`
+```
 bun install
 bun helloworld.ts
-`
+```
 
 If everything works you will see a colored static triangle, FPS and logs will be shown in the terminal:
 
@@ -27,7 +27,8 @@ If everything works you will see a colored static triangle, FPS and logs will be
 *vulkan4bun* and *glfw4bun* are pure javascript libraries that use Bun FFI to dynamically load necessary Vulkan and GLFW symbols. Therefore, the only requirements are:
 - Bun
 - vulkan4bun and glfw4bun
-- Vulkan loader (vulkan.so.1) in the expected path (`/usr/lib/x86_64-linux-gnu/libvulkan.so.1`)
+- The Vulkan loader (vulkan.so.1) in the expected path (`/usr/lib/x86_64-linux-gnu/libvulkan.so.1`)
+- The GLFW dynamic library in the expected path (`/usr/lib/x86_64-linux-gnu/libglfw.so.3`)
 - A Vulkan-enabling GPU driver
 
 ## Limitations

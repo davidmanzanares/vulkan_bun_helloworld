@@ -26,7 +26,7 @@ If everything works you will see a colored static triangle, FPS and logs will be
 
 *vulkan4bun* and *glfw4bun* are pure javascript libraries that use Bun FFI to dynamically load necessary Vulkan and GLFW symbols. Therefore, the only requirements are:
 - Bun
--*vulkan4bun* and *glfw4bun*
+- vulkan4bun and glfw4bun
 - Vulkan loader (vulkan.so.1) in the expected path (`/usr/lib/x86_64-linux-gnu/libvulkan.so.1`)
 - A Vulkan-enabling GPU driver
 

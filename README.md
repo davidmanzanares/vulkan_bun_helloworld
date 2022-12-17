@@ -36,6 +36,6 @@ If everything works you will see a colored static triangle, FPS and logs will be
 
 ## Why
 
-Apart from because it's fun, Javascript, and Javascript under Bun, is probably the fastest scripting language. Bun also promises a very low cost on making FFI calls.
+Apart from because it's fun, Javascript under Bun is probably the fastest runtime for a scripting language. Bun also promises a very low cost on making FFI calls.
 
-Additionally, GPU intensive programs can easily find the bottleneck in the GPU, reducing the penalty for using slower languages than C/C++/Rust. 
+Additionally, GPU intensive programs can easily be bottlenecked in the GPU, reducing the real cost of using slower languages than C/C++/Rust. 
